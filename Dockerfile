@@ -15,5 +15,6 @@ RUN mvn clean package -DskipTests
 
 EXPOSE 8080
 
-# ENTRYPOINT ["java", "-jar", "/app/app/target/bizcomu-3_1-0.0.1-SNAPSHOT.jar"]
+# ファイルを直接指定する
+# ENTRYPOINT ["java", "-jar", "/app/app/target/hoge.jar"]
 # ENTRYPOINT [ "sleep", "infinity" ]
